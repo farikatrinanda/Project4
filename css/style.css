@@ -1,0 +1,224 @@
+#template{
+	height: auto;
+	width: 960px;
+	margin: 10px auto;
+}
+
+body{
+	background-image: url('Rumah.Png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-shadow: 3px 2px 1px black;
+}
+#header{
+	height: 390px;
+	width: 900px;
+	border: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	background-image: url('Header.jpg');
+}
+
+#menu{
+	text-align: center;
+	height: 25px;
+	width: 960px;
+	border: 2px solid white;
+	margin: 5px 0 5px 0;
+	background-color: green;
+}
+
+#menu ul{
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul li{
+	text-align: left;
+	list-style: none;
+	float: left;
+	margin-top: 3px;
+#	border: 1px solid #000;
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu ul li a span{
+	padding: 10px 20px 10px;
+	height: 100px;
+}
+
+#menu ul li a:hover{
+	background-color: white;
+	padding: 4px;
+}
+
+
+.dropdown{
+	position: relative;
+#	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: green;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+	float: bottom;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+
+#left-content{
+	float: center;
+	height: 350px;
+	width: 30%;
+	float: left;
+}
+
+#left-box{
+	height: 30%;
+	padding-bottom: 15px;
+}
+
+#left-box-header{
+	width: 100%;
+	height: 20%;
+	border: 1px solid white;
+	background-color: green;
+}
+
+
+#sort-news {
+	float: Center;
+	text-align: justify;
+	padding: 3px;
+}
+
+#img-news{
+	float: center;
+	width: 400px;
+	height:230px;
+	padding: 3px;
+}
+
+li{
+	list-style: none;
+}
+
+
+#left-box-content{
+	width: 100%;
+	min-height: 20%;
+	height: auto;
+	border: 1px solid black;
+}
+
+#right-content{
+	margin-left: 5px;
+	width: 69%;
+	float: right;
+	height: 350px;
+	border: 1px solid #000;
+}
+
+#main_menu{
+	height: 6%;
+	width: 100%;
+	background-color: green;
+	border: 1px solid white;
+	text-shadow: 3px 1px 1px black;
+}
+
+#main_content{
+	height: 30%;
+	border: 0px solid #000;
+	float: center;
+}
+	
+#footer{
+	float: left;
+	height: 100px;
+	width: 100%;
+	border: 1px solid white;
+	border-radius: 0 0 5px 5px;
+	margin-top: 5px;
+	background-color: green;
+	
+}
+
+#center-content{
+	margin-left: 5px;
+	width: 69%;
+	float: center;
+	height: 400px;
+	border: 1px solid #000;
+}
+
+#daftar-menu{
+	height: 6%;
+	width: 100%;
+	background-color: green;
+	border: 1px solid white;
+	text-shadow: 3px 1px 1px black;
+}
+
+#menu-content{
+	height: auto;
+	border: 0px solid black;
+	float: center;
+}
+
+#makanan-content{
+	margin-left: 5px;
+	width: 69%;
+	float: center;
+	height: auto%;
+	border: 1px solid white;
+}
+
+#makanan-menu{
+	height: 6%;
+	width: 100%;
+	background-color: green;
+	border: 1px solid white;
+	text-shadow: 3px 1px 1px black;
+}
+
+#makananmenu{
+	height: 0%;
+	border: 0px solid black;
+	float: center;
+}
+
+img-menu{
+	float: center;
+	width: 400px;
+	height:230px;
+	padding: 3px;
+}
+
+#minuman-content{
+	margin-left: 5px;
+	width: 69%;
+	float: center;
+	height: auto%;
+	border: 1px solid white;
+}
+
+#minuman-menu{
+	height: 6%;
+	width: 100%;
+	background-color: green;
+	border: 1px solid white;
+	text-shadow: 3px 1px 1px black;
+}
